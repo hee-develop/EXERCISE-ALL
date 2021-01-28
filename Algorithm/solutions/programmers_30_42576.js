@@ -17,7 +17,7 @@
 
 정렬은 시간이 오래 걸리고 sort()는 원본의 순서를 바꿔 버린다는 문제점 존재
 */
-export default function solution(participant, completion) {
+export function solution(participant, completion) {
   participant.sort();
   completion.sort();
 

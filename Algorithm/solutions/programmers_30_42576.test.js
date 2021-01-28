@@ -1,4 +1,4 @@
-import solution, { solutionB } from './programmers_30_42576';
+import {solution, solutionB} from './programmers_30_42576';
 
 test('예제#1 "leo"는 참여자 명단에는 있지만, 완주자 명단에는 없기 때문에 완주하지 못했습니다.', () => {
   const participant = ['leo', 'kiki', 'eden'];
