@@ -30,7 +30,7 @@
 의상의 종류는 해쉬(Object)를 이용해 카운트
 */
 /** @param {Array<Array<String>>} clothes */
-function solution(clothes) {
+export function solution(clothes) {
   return Object.values(
     clothes.reduce(
       (acc, [,key]) => {
